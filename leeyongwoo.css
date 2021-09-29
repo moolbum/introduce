@@ -5,7 +5,6 @@
     list-style: none;
     color: #1d1d1f;
     font-family: 'Noto Sans KR', sans-serif;
-
 }
 html {
     min-width: 800px;
@@ -16,10 +15,25 @@ header {
     height: 300px;
     background-color: #1d1d1f13;
 }
-.topWidth {
+#topWidth .name {
     width: 100%;
-    max-width: 1100px;
+    padding-top: 50px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#topWidth .name .topImg img{
+    width: 180px;
+    margin-right: 80px;
+}
+#topWidth .name img {
+    width: 24px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+#topWidth .name h1, .egName {
+    color: #0066cc;
 }
 section {
     width: 100%;
@@ -60,7 +74,7 @@ section {
 }
 #front {
     width: 100%;
-    padding-top: 2em;
+    padding-top: 2.8em;
     text-align: center;
 }
 #front .blueMark {
@@ -83,17 +97,18 @@ section {
     font-weight: 700;
 }
 #front .low {
+    display: inline-block;
     color: #0066cc;
     font-weight: 300;
     position: relative;
     left: -125px;
     top: 2px;
 }
-.typoWidth {
+#typoWidth {
     position: relative;
     left: -44%;
     bottom: -46%;
 }
-.typoWidth img {
+#typoWidth img {
     width: 450px;
 }
